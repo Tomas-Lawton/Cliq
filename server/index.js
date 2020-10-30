@@ -3,8 +3,8 @@ const http = require('http').createServer(app)
 const io = require('socket.io')(http)
 
 io.on('connection', socket => {
-    socket.on('message', ({ name, message, code, currenttime }) => {
-        io.emit('message', ({ name, message, code, currenttime }))
+    socket.on('message', ({ YourCliq, displayname, useremail, message, publickey, currenttime }) => {
+        io.emit('message', ({ YourCliq, displayname, useremail, message, publickey, currenttime }))
     })
 })
 
