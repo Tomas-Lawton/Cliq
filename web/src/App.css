@@ -1,0 +1,526 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    /* border: 1px solid green; */
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #212121 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+body {
+    background-color: #212121;
+}
+
+.App {
+    color: #ffffff;
+}
+
+.signin-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.divider {
+    opacity: 50%;
+}
+
+h3 {
+    margin: 0
+}
+
+
+/* h1 {margin: 0;} */
+
+.card {
+    width: 350px;
+    border-radius: 5px;
+    padding: 30px;
+    /* box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75); */
+}
+
+.User-From {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.name-field {
+    margin-bottom: 40px;
+}
+
+.log-in-button {
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(255, 167, 0);
+    border-radius: 5px;
+    border-style: none;
+    width: 70px;
+}
+
+.center-button {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    /* justify-content: space-between; */
+    justify-content: flex-end;
+    /* justify-content: center; */
+}
+
+.log-in-button:hover {
+    transition-duration: 600ms;
+    background-color: rgb(255, 188, 62);
+}
+
+.makeBlue {
+    color: rgb(255, 167, 0);
+}
+
+.makeBlue:hover {
+    color: rgb(255, 188, 62);
+}
+
+.render-chat {
+    max-width: 350px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.style-Message-Left {
+    background-color: rgb(255, 167, 0);
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+
+.style-Message-Right {
+    background-color: #ebebeb;
+    color: rgb(51, 51, 51);
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+
+.MessageContainRight {
+    text-align: right;
+}
+
+.MessageTop {
+    margin: 10px 0;
+}
+
+.messagebox {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.fullwidthStyle {
+    width: 100%;
+    /* color: #ffffff; */
+    /* opacity: 50%; */
+    border-color: white;
+    /* borderColor: 'white'; */
+}
+
+span {
+    color: black;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.chat-container {
+    display: flex;
+}
+
+.add-scenes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    padding: 0 2%;
+    width: 30%;
+    height: 100vh;
+    background-color: #2F2F2F;
+    /* display: flex;
+  flex-direction: column; */
+    /* justify-content: space-around; */
+}
+
+.icon-space-containter {
+    /* height: 400px; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-end;
+    /* justify-content: flex-end; */
+}
+
+.method-icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.method-icons img {
+    height: 35px;
+}
+
+.mid {
+    width: 60%;
+    /* width: 45%; */
+    padding: 0px 20px;
+    background-color: #212121;
+}
+
+.Chat-Outer-Wrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Chat-Messages {
+    height: 90vh;
+    overflow: auto;
+    /* margin: 10px 0; */
+}
+
+.rightbar {
+    /* margin-left: 20px; */
+    position: fixed;
+    right: 0px;
+    /* width: 15%; */
+    width: 1%;
+    height: 100vh;
+    /* background-color: none; */
+    /* opacity: 30%; */
+    display: flex;
+    color: #ffffff;
+    /* color: #2F2F2F; */
+    /* padding: 20px; */
+}
+
+
+/* .rightbar button {
+    width: 100%;
+    background-color: #2F2F2F;
+    border: none;
+}
+
+.rightbar button:focus {
+    outline: none;
+    box-shadow: none;
+} */
+
+
+/* .rightbar:hover {
+    opacity: 100%;
+    width: 30%;
+} */
+
+.fix-size {
+    height: 600px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub-clique {
+    display: flex;
+    align-items: center;
+}
+
+.sub-clique>* {
+    padding: 0 5px;
+}
+
+.mainCliq {
+    background-color: #FFA700;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.connectedCliq {
+    background-color: white;
+    color: #212121;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.Method-Card {
+    /* display: flex; */
+    padding: 20px;
+    position: fixed;
+    /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    color: #212121;
+    opacity: 100%;
+    /* background-color: #212121; */
+    background-color: #ffffff;
+    box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+.top-level {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* font-size: larger; */
+}
+
+
+/* Add +/- buttons to this at some point */
+
+#cliqsize {
+    display: block;
+    text-align: center;
+    border-style: none;
+    /* background-color: none; */
+    /* text-decoration: underline; */
+    width: 40px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: #FFA700;
+    color: #ffffff;
+    /* color: #ffffff; */
+    font-weight: bold;
+    font-size: larger;
+    /* margin : 0 auto; */
+}
+
+.around-input-number {
+    align-content: center;
+}
+
+.mid-level {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-level {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.bottom-level * {
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+.add-users-to-cliq {
+    /* padding: 20px; */
+    height: 290px;
+    /* background-color: #1f1f1f;   */
+    /* background-color: #ffffff; */
+    /* color: #212121; */
+    color: #212121;
+    /* color: #ffffff; */
+    overflow: auto;
+}
+
+.invite-email-element {
+    display: flex;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 1);
+}
+
+.opacity {
+    opacity: 75%;
+}
+
+.button-left {
+    width: 80px;
+    height: 40px;
+    background-color: #434343;
+    opacity: 40%;
+    border-style: none;
+}
+
+.button-left:hover {
+    opacity: 70%;
+    transition-duration: 600ms;
+}
+
+.button-right {
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: #FFA700;
+    border-style: none;
+}
+
+.button-right:hover {
+    background-color: #fcbb43;
+    transition-duration: 600ms;
+}
+
+
+/* .log-in-button {
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #3a7fe7;
+  border-radius: 5px;
+  border-style: none;
+  width: 100%;
+}
+
+.log-in-button:hover{
+  transition-duration: 600ms;
+  background-color: #619af0;
+} */
+
+.orange {
+    color: #FFA700;
+}
+
+.remove-invite-Button {
+    width: 60px;
+}
+
+.TheCliqName {
+    width: 100%;
+    display: flex;
+}
+
+#CliqNameInput {
+    display: flex;
+    width: 100%;
+    color: rgba(33, 33, 33, 1);
+}
+
+.centerthis {
+    margin-left: 23px;
+    text-align: center;
+}
+
+.styleCross {
+    height: 20px;
+    /* fill: white; */
+    opacity: 80%;
+}
+
+.styleCross2 {
+    height: 15px;
+    /* fill: white; */
+    opacity: 100%;
+}
+
+.contain-Cross {
+    display: flex;
+    /* align-content: center; */
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+#midsection {
+    transition-duration: 200ms;
+}
+
+#rightside {
+    background-color: #2c2c2c;
+    transition-duration: 200ms;
+    padding-right: 30px;
+    width: 0%;
+}
+
+.addkeys-containt {
+    width: 100%;
+}
+
+.addkeys {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #212121;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.addkeys:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.colorhover:hover {
+    color: #FFA700;
+    transition-duration: 200ms;
+}
+
+.contain-right {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+/* .panelButtonContain {} */
+
+button:focus {
+    outline: 0;
+}
+
+.panelButtonContain button {
+    height: 100%;
+    width: 30px;
+    border-style: none;
+    background-color: #2c2c2c;
+    opacity: 50%;
+}
+
+.panelButtonContain button:hover {
+    transition-duration: 200ms;
+    background-color: #FFA700;
+}
